@@ -17,10 +17,7 @@ const viewMachine = Machine({
                 onDone: {
                     target: 'loggedIn',
                     actions: assign({ 
-                        authentication: (context: any, event: any) => {
-                            console.log(event.data);
-                            return event.data;
-                        }
+                        authentication: (context: any, event: any) => event.data
                     })
                 },
                 onError: {

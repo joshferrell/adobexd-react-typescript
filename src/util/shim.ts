@@ -14,7 +14,7 @@ if (window.cancelAnimationFrame == null) {
 if (window.requestAnimationFrame == null) {
     // @ts-ignore
     window.requestAnimationFrame = (callback: any) => {
-        console.log("requestAnimationFrame is not supported yet");
+        console.warn("requestAnimationFrame is not supported yet");
     }
 }
 
