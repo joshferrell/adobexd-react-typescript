@@ -2,7 +2,7 @@
 A simple boilerplate to get started making an adobe xd plugin using typescript and react
 
 ## Objects
-This project attempts to solve the following gotchas
+This project attempts to solve the following:
 - [x] How to use typescript and react for AdobeXD panels - (master)
 - [x] Environment variables - (feature/routing-methods)
 - [x] How to store JWT token to maintain signin - (feature/routing-methods)
