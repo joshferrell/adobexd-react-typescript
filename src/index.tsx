@@ -1,7 +1,6 @@
-import * as React from 'react';
 import PanelController from './util/panel-controller'
 
-const App = () => (<p>hi there</p>);
+import App from './app';
 
 // export default does not work with adobe xd as expected, use export const instead
 export const panels = {

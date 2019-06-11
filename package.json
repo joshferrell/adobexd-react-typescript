@@ -13,8 +13,10 @@
     "build:watch": "nodemon -w src -e ts,tsx,json,css -w webpack.config.js -x yarn build"
   },
   "dependencies": {
+    "@xstate/react": "^0.6.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "xstate": "^4.6.1"
   },
   "devDependencies": {
     "@adobexd/typings": "AdobeXD/typings#master",
