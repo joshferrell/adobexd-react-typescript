@@ -7,8 +7,9 @@ interface HandleLogin {
 }
 
 const makeHandleLogin: HandleLogin = (fs) => async (username, password) => {
-    const baseUrl = 'https://postman-echo.com/post';
+    const baseUrl = process.env.API_URL;
 
+    console.log(baseUrl);
     const loginData = new FormData();
     loginData.append('username', username);
     loginData.append('password', password);
