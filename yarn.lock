@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@adobexd/typings@AdobeXD/typings#master":
+  version "19.0.0"
+  resolved "https://codeload.github.com/AdobeXD/typings/tar.gz/357af6b3189f31b86c4393a920bd1262c4a48ea6"
+
 "@babel/cli@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.4.4.tgz#5454bb7112f29026a4069d8e6f0e1794e651966c"

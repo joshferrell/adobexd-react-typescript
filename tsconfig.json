@@ -37,25 +37,25 @@
         "baseUrl": ".",                       /* Base directory to resolve non-absolute module names. */
         "paths": {
             "scenegraph": [
-                "./types/adobexd/scenegraph"
+                "./node_modules/@adobexd/typings/types/scenegraph"
             ],
             "application": [
-                "./types/adobexd/application"
+                "./node_modules/@adobexd/typings/types/application"
             ],
             "commands": [
-                "./types/adobexd/commands"
+                "./node_modules/@adobexd/typings/types/commands"
             ],
             "uxp": [
-                "./types/adobexd/uxp"
+                "./node_modules/@adobexd/typings/types/uxp"
             ],
             "os": [
-                "./types/adobexd/os"
+                "./node_modules/@adobexd/typings/types/os"
             ]
         },                           /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
         // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
         "typeRoots": [
-            "node_modules/@types",
-            "types"
+            "./node_modules/@types",
+            "./node_modules/@adobexd/"
         ],                       /* List of folders to include type definitions from. */
         // "types": [],                           /* Type declaration files to be included in compilation. */
         "allowSyntheticDefaultImports": true, /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
