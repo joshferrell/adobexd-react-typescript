@@ -1,6 +1,6 @@
 declare const shell: Shell;
 
-declare module storage {
+declare module "uxp" {
     /**
      * An Entry is the base class for `File` and `Folder`. You'll typically never instantiate an `Entry` directly, but it provides the common fields and methods that both `File` and `Folder` share.
      */
